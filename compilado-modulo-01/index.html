@@ -106,5 +106,46 @@
         <source media="(min-width: 790px)" srcset="imagens/paisagem-m.png">
         <img src="imagens/paisagem-p.png" alt="Paisagem Flexível">
     </picture>
+    <br>
+    <h2>Áudio</h2>
+    <hr>
+    <p>A inserções de áudios também é nativa do html, uitiliza-se a tag &lt;audio&gt;:</p>
+    <p>Parâmetros:</p>
+    <ul>
+        <li>preload = indica se o áudio será pré carregado ou não;
+            <ul>
+                <li>"metadata" = carrega apenas algumas informações sobre o arquivo (tamanho, tempo, informações de direitos, etc.)
+                <li>"none" = não carrega até que o usuário clique no botão de play ou um script inicie a reprodução.
+                <li>"auto" (padrão) = carrega o arquivo inteiro inteiro assim que a página é carregada, mesmo que o usuário não interaja.
+            </ul>
+        <li>controls = o player aparece na tela;
+        <li>autoplay = inicia a reprodução do automaticamente assim que a página é carregada;
+        <li>loop = faz com que o áudio seja repetido automaticamente;
+        <li>&lt;source src="áudio.extensão" type="audio/extensão"&gt; 
+    </ul>
+    <h2>Vídeo</h2>
+    <hr>
+    <p>Também podemos inserir vídeos de forma nativa usando a tag &lt;video&gt;:</p>
+    <p>Parâmetros:</p>
+    <ul>
+        <li>width = "valor-da-largura"
+        <li>poster = "thumb.extensão"
+        <li>controls = o player aparece no vídeo
+        <li>autoplay = inicia a reprodução do automaticamente assim que a página é carregada;
+        <li>muted = a opção de sem som vem pré-marcada nos controles;
+        <li>&lt;source src="vídeo.extensão" type="video/extensão"&gt; 
+        </ul>
+    <h2>Introdução ao CSS</h2>
+    <hr>
+    <p>Adiciona estilo e efeitos visuais à página.</p>
+    <h3>CSS Inline</h3>
+    <p>Consiste em aplicar estilo em áreas pontuais da página, adicionado "style" dentro da tag e configurando os parâmetros desejados.</p>
+    <p>Ex:</p>
+    <code>&lt;body style="font-family: Arial, Helvetica, sans-serif;" color:"blue"></code>
+    <br>
+    <h3>CSS Interno/Local</h3>
+    <p>Aplica o "style" no &lt;head&gt; dessa forma, o estilo selecionado é aplicado a todas as tags presentes no &lt;body&gt;.</p>
+    <h3>CSS Externo</h3>
+    <p>É a técnica mais versátil e que permite mais personalização, usando a tag &lt;link&gt;, colocando no &lt;head&gt;</p>. E com ele criamos um arquivo específico só para as CSS.
 </body>
 </html>
