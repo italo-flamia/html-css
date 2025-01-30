@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Áudio</h2>
+    <hr>
+    <p>A inserções de áudios também é nativa do html, uitiliza-se a tag &lt;audio&gt;:</p>
+    <p>Parâmetros:</p>
+    <ul>
+        <li>preload = indica se o áudio será pré carregado ou não;
+            <ul>
+                <li>"metadata" = carrega apenas algumas informações sobre o arquivo (tamanho, tempo, informações de direitos, etc.)
+                <li>"none" = não carrega até que o usuário clique no botão de play ou um script inicie a reprodução.
+                <li>"auto" (padrão) = carrega o arquivo inteiro inteiro assim que a página é carregada, mesmo que o usuário não interaja.
+            </ul>
+        <li>controls = o player aparece na tela;
+        <li>autoplay = inicia a reprodução do automaticamente assim que a página é carregada;
+        <li>loop = faz com que o áudio seja repetido automaticamente;
+        <li>&lt;source src="áudio.extensão" type="audio/extensão"&gt; 
+    </ul>
+    <h2>Vídeo</h2>
+    <hr>
+    <p>Também podemos inserir vídeos de forma nativa usando a tag &lt;video&gt;:</p>
+    <p>Parâmetros:</p>
+    <ul>
+        <li>width = "valor-da-largura"
+        <li>poster = "thumb.extensão"
+        <li>controls = o player aparece no vídeo
+        <li>autoplay = inicia a reprodução do automaticamente assim que a página é carregada;
+        <li>muted = a opção de sem som vem pré-marcada nos controles;
+        <li>&lt;source src="vídeo.extensão" type="video/extensão"&gt; 
+        </ul>
+    <br>
+    <a href="index.html" target="_self" rel="prev">Início</a>
+</body>
+</html>
