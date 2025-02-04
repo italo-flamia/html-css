@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+a {
+    background-color: #22D4FD;
+    color: #000000;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+}
