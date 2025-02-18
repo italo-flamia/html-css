@@ -1,28 +1,55 @@
 @charset "UTF-8";
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .main {
-    display: flex;
-    align-items: center;
+    display: flex;  
 }
 
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
 }
 
-a {
+.modulo {
     background-color: #22D4FD;
-    color: #000000;
-    text-decoration: none;
     font-size: 25px;
     font-weight: bold;
-    padding: 15px;
     border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.modulo > div {
+    display: none;
+}
+
+.modulo:hover > div {
+    display: inline-block;
+}
+
+.submod {
+    display: inline-block;
+    background-color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    width: 250px;
+}
+
+.submod > a {
+    text-decoration: none;
+    color:#000000;
+}
+
+.submod:hover {
+    background-color: #000000;
+}
+
+.submod:hover > a {
+    color: #ffffff;
 }
