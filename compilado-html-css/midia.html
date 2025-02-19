@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="stylepag.css">
+    <title>Mídea</title>
 </head>
 <body>
+    <h2>Imagens</h2>
+    <hr>
+    <p>Para colocarmos uma imagem utilizamos a tag &lt;img src="(fonte)" alt="(texto alternativo)"&gt;, dessa maneira:</p>
+    <img src="imagens/logo-html-200.webp" alt="Logo HTML">
+    <br>
+
+    <h2>Imagens Flexíveis</h2>
+    <hr>
+    <p>A visualização do site pode ocorrer em diferentes tamanhos de tela, é necessário que o site proporcione a melhor experiência possível independente da tela. Por isso quando exibimos uma imagem podemos adequá-la de acordo com a especificação pré definida. A tag utilizada é a &lt;picture&gt; e possui alguns parâmetros para adequar a exibição a tela.</p>
+    <p>&lt;picture&gt;</p>
+    <p>Parâmetros:</p>
+    <ul>
+        <li>source media = "definição de largura da tela"
+            <ul>
+                <li>min-width = "largura mínima"
+                <li>max-width = "largura máxima"
+            </ul>
+        <li>srcset = "fonte da imagem"
+        <li>type = "tipo da imagem"
+        <li>img src = "fonte da imagem padrão"
+        <li>alt = "texto alternativo"
+    </ul>
+    <p>Acompanhe o exemplo abaixo, ao aumetar e diminuir o tamanho da tela a imagem acompanha o display:</p>
+    <picture>
+        <source media="(min-width: 1250px)" srcset="imagens/paisagem-g.png">
+        <source media="(min-width: 790px)" srcset="imagens/paisagem-m.png">
+        <img src="imagens/paisagem-p.png" alt="Paisagem Flexível">
+    </picture>
+    <br>
     <h2>Áudio</h2>
     <hr>
     <p>A inserções de áudios também é nativa do html, uitiliza-se a tag &lt;audio&gt;:</p>
@@ -22,6 +52,7 @@
         <li>loop = faz com que o áudio seja repetido automaticamente;
         <li>&lt;source src="áudio.extensão" type="audio/extensão"&gt; 
     </ul>
+    <br>
     <h2>Vídeo</h2>
     <hr>
     <p>Também podemos inserir vídeos de forma nativa usando a tag &lt;video&gt;:</p>
@@ -34,7 +65,7 @@
         <li>muted = a opção de sem som vem pré-marcada nos controles;
         <li>&lt;source src="vídeo.extensão" type="video/extensão"&gt; 
         </ul>
-    <br>
+        <br>
     <a href="index.html" target="_self" rel="prev">Início</a>
 </body>
 </html>

@@ -12,6 +12,11 @@ body {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .modulo {
     background-color: #22D4FD;
     font-size: 25px;
@@ -52,4 +57,20 @@ body {
 
 .submod:hover > a {
     color: #ffffff;
+}
+
+.biblioteca {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    width: 250px;
+}
+.biblioteca:hover {
+    background-color: #22D4FD;
 }
