@@ -12,3 +12,7 @@ a {
     width: 250px;
     text-decoration: none;
 }
+
+a:hover {
+    background-color: #22D4FD;
+}
