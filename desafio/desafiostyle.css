@@ -21,15 +21,20 @@ h1 {
 header {
     background-image: linear-gradient(0deg, #1a5c38, #3cd681);
     background-attachment: fixed;
-    
-
+    height: 200px;
 }
 
 article {
     background-color: #84e1ad;
-    padding: 50px;
+    padding: 0px 100px;
 }
 
 main {
     background-color: white;
+}
+
+aside#video {
+    background-color: #1a5c38;
+    text-align: center;
+    padding: 30px;
 }
