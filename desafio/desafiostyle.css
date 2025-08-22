@@ -16,25 +16,70 @@ h1 {
 }
 
 .tit , h2 {
-    font-family: 'idroid';}
+    font-family: 'idroid';
+    color: #174f31;
+    text-align: left;
+    padding: 10px 0px 0px 10px;    
+}
 
 header {
     background-image: linear-gradient(0deg, #1a5c38, #3cd681);
-    background-attachment: fixed;
     height: 200px;
+}
+
+.principal {
+    text-align: center;
+    color: white;
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
 }
 
 article {
     background-color: #84e1ad;
-    padding: 0px 100px;
+    padding: 0px 100px 10px 100px;
 }
 
 main {
     background-color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+p {
+    text-align: left;
+    padding: 10px 10px;
 }
 
 aside#video {
     background-color: #1a5c38;
     text-align: center;
     padding: 30px;
+}
+
+aside#extra {
+    background-color: #c5ebd6;
+    margin: 10px;
+}
+
+h3 {
+    background-color: #2fa866;
+    color: white;
+    text-align: left;
+    padding: 5px;
+}
+
+footer {
+    background-color: #1a5c38;
+    color: white;
+}
+
+footer > p {
+    text-align: center;
 }
