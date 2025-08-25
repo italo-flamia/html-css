@@ -75,3 +75,7 @@ a {
 .biblioteca:hover {
     background-color: #22D4FD;
 }
+
+ul {
+    text-align: left;
+}
