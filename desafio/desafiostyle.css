@@ -50,6 +50,8 @@ main {
     background-color: white;
     text-align: center;
     padding-top: 10px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 10px black;
 }
 
 p {
@@ -67,6 +69,7 @@ aside#video {
 aside#extra {
     background-color: #c5ebd6;
     margin: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 h3 {
@@ -74,6 +77,7 @@ h3 {
     color: white;
     text-align: left;
     padding: 5px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 footer {
